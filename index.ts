@@ -13,7 +13,11 @@ BookManagement.display();
 BookManagement.deleteLibrary(1);
 console.log('---Sau khi xoa---');
 BookManagement.display();
-let book2 = new Book(2,'Thanh Tùng 1',3, 'Tình yêu 1', 'Tùng Họa Mi 1', 'Số 2');
-BookManagement.editLibrary(1, book2);
-console.log('---Sau khi thay---')
-BookManagement.display();
+// let book2 = new Book(2,'Thanh Tùng 1',3, 'Tình yêu 1', 'Tùng Họa Mi 1', 'Số 2');
+// BookManagement.editLibrary(1, book2);
+// console.log('---Sau khi thay---')
+// BookManagement.display();
+console.log(('---Sau khi tim kiem---'))
+BookManagement.searchLibrary('Tình Yêu');
+
+

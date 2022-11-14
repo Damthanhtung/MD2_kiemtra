@@ -26,7 +26,11 @@ export class BookManagement {
             }
         }
     }
-    static searchLibrary (name: string): void {
-       this.listLibrary.filter(library => library.name === name);
+   static searchLibrary (name: string) {
+       for (let i=0; i<BookManagement.listLibrary.length; i++) {
+           if(BookManagement.listLibrary[i].name===name) {
+               console.table(name);
+           }
+       }
     }
 }

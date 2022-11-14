@@ -1,4 +1,4 @@
-export abstract class Library {
+export  class Library {
     _documentCode!: number;
      _imprint !: string;
     _releaseNumber !: number;
